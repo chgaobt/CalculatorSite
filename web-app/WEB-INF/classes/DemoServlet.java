@@ -12,6 +12,6 @@ public class DemoServlet extends HttpServlet{
         out.println("Welcome to Servlet");
         out.println("</body></html>");
 
-        out.close(); 
+        out.close();
     }
 }
