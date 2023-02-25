@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="This is a silly, stress-relieving game">
+<title>Yummy Cake</title>
+</head>
+
+<body>
+	<div id="screen">
+		<div id="Cake"></div>
+	</div>
+
+<p id="cake"><center>
+      __|_|_|_|_|_|__<br>
+     |  *   *   *   *   *   *   *   *  |<br>
+     |~~~~~~~~~~~|<br>
+ _|____________|_<br>
+|   *   *   *   *   *   *   *   *   *   *   *    |<br>                                
+|~~~~~~~~~~~~~~~|<br>
+| _______________ |
+
+</center>
+</p>
+
+<button onclick="change_text()"><center>Eat!</center></button>
+<script>
+	function change_text() {
+		document.getElementById("cake").innerHTML = "I have less cake now!"
+	}
+</script>
+</body>
+</html>
